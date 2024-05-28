@@ -11,8 +11,8 @@ def get_favorite_vegetable():
     where X is replaced with the user's favorite vegetable.
     """
     # write your code here.
-    favorite_vege = input("what is your favorite vegetable?\n")
-    start_vege = "Interesting! I also Love "
+    favorite_vege = input("\nwhat is your favorite vegetable?\n")
+    start_vege = "Interesting! I also love "
     end_vege = "!"
     print( start_vege + favorite_vege + end_vege)
 
@@ -27,7 +27,7 @@ def get_favorite_number():
     """
     # write your code here.
     ask_favo_numb = input("what is your favorite number?\n")
-    start_numb = "Interesting! I also Love "
+    start_numb = "Interesting! I also love "
     end_numb = "!"
     print( start_numb + ask_favo_numb + end_numb)
 
